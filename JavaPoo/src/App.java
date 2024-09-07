@@ -4,7 +4,9 @@ public class App {
         persona1.nombre = "Raul";
         persona1.apellidos = "Alvares";
         persona1.edad = 53;
-        System.out.println(persona1.apellido + ", " + persona1.nombre + "Tiene "+ persona1.edad + "Años.");
+        
+        System.out.println(persona1.apellidos + ", " + persona1.nombre + " Tiene "+ persona1.edad + " Años.");
+        
 
     
         
