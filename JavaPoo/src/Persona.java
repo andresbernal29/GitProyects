@@ -4,8 +4,13 @@ String apellidos;
 int edad;
 Carrera carrera;
 //contructor
-public Persona(){
+public Persona(String nombre, String apellidos, int edad, String nombreCarrera){
     carrera = new Carrera();
+    this.nombre = nombre;
+    this.apellidos = apellidos;
+    this.edad = edad;
+    carrera.nombre = nombreCarrera;
+
 }
 
 // Metodos (compportasmiento de un objeto)

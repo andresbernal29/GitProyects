@@ -1,14 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Persona persona1 = new Persona();
-        persona1.nombre = "Andres";
-        persona1.apellidos = "Alvares";
-        persona1.edad = 25;  
-        persona1.carrera.nombre = "musica";    
+        Persona persona1 = new Persona("Pedro", "Pascal", 48, "Mandaloriano");
+        System.out.println(persona1.darNombreCompleto()+ "Tiene" + persona1.edad + "años y está recibieda de " + persona1.carrera.nombre);
 
-        System.out.println(persona1.darNombreCompleto() + ", "+ " Tiene " + persona1.edad
-                + " Años y esta recibido de:." + persona1.carrera.nombre);
-        
 
     }
 }
