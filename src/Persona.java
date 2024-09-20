@@ -1,11 +1,10 @@
 public class Persona {
 String nombre;
 String apellidos;
+int numr;
 int edad;
-Carrera carrera;
 //contructor
-public Persona(String nombre, String apellidos, int edad, String nombreCarrera, int duracionCarreral, boolean estaCursando){
-    carrera = new Carrera(nombreCarrera, duracionCarreral, estaCursando);
+public Persona(String nombre, String apellidos, int edad){
     this.nombre = nombre;
     this.apellidos = apellidos;
     this.edad = edad;
